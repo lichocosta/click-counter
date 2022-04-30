@@ -1,0 +1,24 @@
+button {
+  width: 250px;
+  height: 80px;
+  font-size: 35px;
+  font-family: monospace, sans-serif;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  margin: 5px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+button:hover {
+  background-color: #00471b;
+}
+
+.click-button:active {
+  background-color: #002ead;
+}
+
+.reset-button:active {
+  background-color: #a70101;
+}
